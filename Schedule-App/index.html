@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>PlanMaster</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <head>
+        <!-- Link to Google Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    
+    </head>
+<body>
+
+        <!-- Section 1: Hero Section -->
+        <section class="hero-details">
+            <div class="container">
+                <header class="logo-header">
+                    <div class="logo"> 
+                        <img src="img/planMaster-logo-removebg-preview.png" alt="">
+                    </div>
+                    <h1>PlanMaster</h1>
+                    <p>Simplify Your Event Planning</p>
+                </header>
+                <div class="illustration">
+                    <img src="img/anima.png" alt="Event Planning Illustration">
+                </div>
+                <div class="cta">
+                    <p>Discover expert tips for seamless event scheduling</p>
+                    <a href="#" class="cta-btn-button">Get Started</a>
+                </div>
+            </div>
+        <!-- </section> -->
+    
+        <!-- Section 2: Welcome Section -->
+        <section class="welcome-section">
+            <div class="welcome-header">
+                <div class="menu-icon">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <p>Welcome back, <span>Victoria</span></p>
+                <div class="profile-pic">
+                    <img src="img/face-icon.png" alt="Profile Picture">
+                </div>
+            </div>
+
+            <div class="date-section">
+                <div class="view-switcher">
+                    <button class="today-btn"><i class="fas fa-calendar-day"></i> Today</button>
+                    <button class="calendar-btn"><i class="fas fa-calendar-alt"></i> Calendar</button>
+                </div>
+            
+                <div class="current-date">
+                    <h1 class="current-day"></h1>
+                    <p class="current-weekday"></p>
+                    <div class="time-section"></div>
+                </div>
+            </div>
+            
+            <!-- Calendar Modal -->
+            <div class="calendar-modal">
+                <div class="calendar-content">
+                    <span class="close-btn">&times;</span>
+                    <h2>Select a Date</h2>
+                    <input type="date" class="calendar-input" />
+                </div>
+            </div>
+        </section>
+    
+        <!-- Section 3: Add Event Section -->
+    <section class="event-btn">
+        <div class="add-event-body"></div> 
+        <div class="cta">
+            <div class="add-event-body2"></div>
+            <div class="add-event-input">
+                <input type="text" placeholder="Event Name" class="event-name" />
+            </div>
+            <div class="time-start-details">
+                <input type="time" placeholder="Time Start" class="Time-Start" />
+            </div>
+            <div class="time-end-details">
+                <input type="time" placeholder="Time End" class="Time-end" />
+            </div>
+        </div>
+        <div class="calendar-details">
+            <input type="date" placeholder="Date" class="Date" />
+        </div>
+        <div class="event-btn2"> 
+            <a href="#" class="cta-btn">Add event</a>
+        </div>
+    </section>
+
+        <!-- Section 4: Upcoming Tasks -->
+        <section class="event-list">
+            <h2>Upcoming tasks</h2>
+            <ul class="event-display"></ul>
+        </section>
+    
+        <!-- Section 5: Event Details Section -->
+        <section class="event-details-section">
+            <div class="event-header">
+                <i class="fas fa-arrow-left"></i>
+                <h2>Event Details</h2>
+                <i class="fas fa-ellipsis-v"></i>
+            </div>
+            <div class="notepad-section">
+                <h3>Event Description</h3>
+                <textarea class="event-notepad" placeholder="Description of event..."></textarea>
+                <button class="save-note-btn">Save Note</button>
+            </div>
+        </section>
+    
+        <!-- Section 6: About Us Section -->
+        <div class="about-company">
+            <h2>About Us</h2>
+            <p>Our technology is trusted by the world’s leading trade show and event organizers.</p>
+
+             <!-- Footer -->
+        <footer>
+            <p>&copy; 2024 Plan Your Show, Inc.</p>
+            <div class="footer-links">
+                <a href="#">Terms</a>
+                <a href="#">Privacy</a>
+            </div>
+        </footer>
+        </div>
+        
+    <script src='script.js'></script>
+</body>
+</html>

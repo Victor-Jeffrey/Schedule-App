@@ -1,0 +1,1547 @@
+
+/* -----section 1 hero-sec---- */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+h1, h2, h3, p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700; /* Bold */
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400; /* Regular */
+}
+
+* {
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 10px;
+}
+
+
+.hero-details {
+    background-color: rgb(255, 255, 255);
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+    padding: 20px;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 26px;
+    font-weight: bold;
+    color: #333333;
+}
+
+.header p {
+    font-size: 12px;
+    color: rgb(234, 234, 234);
+    margin-bottom: 20px;
+}
+
+.illustration img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.cta p {
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.cta-btn-button {
+    display: inline-block;
+    padding: 12px 12px;
+    background-color: #1907c2c9;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.cta-btn-button:hover {
+    background-color: #333333;
+}
+
+.logo img {
+    max-width: 800px;
+    margin-top: 0px;
+}
+
+/* -----section 1 hero-sec end---- */
+
+/* <!--section 2 (Welcome Section) --> */
+* {
+    margin: 2px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.welcome-section {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.menu-icon {
+    font-size: 24px;
+}
+
+.welcome-header p {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.welcome-header span {
+    font-weight: bold;
+}
+
+.profile-pic img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.date-section {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.date-section h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.view-switcher {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.view-switcher button {
+    border: none;
+    background-color: #e5e5e5;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin: 10px;
+    font-size: 16px;
+}
+
+.view-switcher .today-btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #1907c2c9;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.view-switcher .today-btn:hover {
+    background-color: #333333;
+}
+
+.view-switcher .calendar-btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #d48f0ec9;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.view-switcher .calendar-btn:hover {
+    background-color: #333333;
+}
+
+.weather-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.weather-temp h2 {
+    font-size: 32px;
+    margin-bottom: 5px;
+}
+
+.weather-temp p {
+    font-size: 14px;
+    color: gray;
+}
+
+.sun-info p {
+    font-size: 14px;
+    color: gray;
+    text-align: right;
+}
+/* <!--section 2 (Welcome Section end) --> */
+
+/* ------section 3 (add event button)------- */
+
+.add-event-body2 {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.add-event-btn {
+    background-color: black;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 30px;
+    border: none;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.add-event-input {
+    /* background-color: black; */
+    display: inline-block;
+    color: white;
+    /* padding: 15px 25px; */
+    border-radius: 30px;
+    border: none;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.add-event-btn button i {
+    margin-right: 10px;
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: 10% auto;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Close Button Styling */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    cursor: pointer;
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.submit-btn {
+    background-color: #1907c2c9;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.submit-btn:hover {
+    background-color: #000000;
+}
+/* ------new here----- */
+/* Form Styling */
+.event-btn {
+    width: 320px;
+    margin: 0 auto;
+    padding: 0px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.cta-btn {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-event-input,
+.time-start-details,
+.time-end-details,
+.calendar-details {
+    margin-bottom: 15px;
+}
+
+input[type="text"], input[type="time"], input[type="date"] {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* ----------HERE---------- */
+.cta-btn {
+    display: inline-block;
+    background-color: #1907c2c9;
+    color: white;
+    padding: 12px 18px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.cta-btn:hover {
+    background-color: #000000c9;
+}
+
+/* .event-btn2:hover {
+    background-color: #000000c9;
+} */
+
+/* Event List Styling */
+.event-list {
+    width: 320px;
+    margin: 20px auto;
+}
+
+.event-display {
+    list-style: none;
+    padding: 0;
+}
+
+.event-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.event-details {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.event-actions button {
+    background-color: #1907c2c9;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-right: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.event-actions button.edit {
+    background-color: #f39c12;
+}
+
+.event-actions button.delete {
+    background-color: #e74c3c;
+}
+
+.event-actions button:hover {
+    opacity: 0.9;
+}
+/* ------add event button end------- */
+
+
+
+/* <!-- section 4 (Upcoming Tasks Section) --> */
+.tasks-section {
+    margin-top: 30px;
+}
+
+.tasks-section h2 {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.task-card {
+    background-color: #f0f4f7;
+    border-radius: 12px;
+    padding: 15px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.zoom-task {
+    background-color: #e0f7e7;
+}
+
+.google-meet-task {
+    background-color: #fbe9e7;
+}
+
+.task-details h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.task-details p {
+    font-size: 16px;
+}
+
+.task-details span {
+    font-size: 14px;
+    color: gray;
+}
+
+.time-details p {
+    font-size: 14px;
+    color: gray;
+    text-align: right;
+}
+/* <!-- section 4 (Upcoming Tasks Section end) --> */
+
+
+
+/* section 5 (Event Details Section) */
+.event-details-section {
+    background-color: rgb(227, 222, 222);
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 5px;
+}
+
+.event-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.event-header i {
+    font-size: 24px;
+    color: #444;
+}
+
+.event-type {
+    margin-bottom: 5px;
+}
+
+.event-type .event-badge {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    display: inline-block;
+}
+
+.event-type h1 {
+    font-size: 20px;
+    margin-top: 5px;
+    color: #333;
+}
+
+.event-time {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.time-duration h2 {
+    font-size: 36px;
+    color: #444;
+}
+
+.time-duration p {
+    font-size: 14px;
+    color: gray;
+}
+
+.time-duration span {
+    font-size: 12px;
+    color: gray;
+}
+
+.start-end-time p {
+    font-size: 14px;
+    color: gray;
+    text-align: right;
+}
+
+.event-files {
+    margin-bottom: 5px;
+}
+
+.file-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.file-item i {
+    font-size: 20px;
+    color: #888;
+}
+
+.file-item p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.event-description p {
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 5px;
+}
+
+.event-description .see-more {
+    color: #007bff;
+    cursor: pointer;
+}
+
+.event-participants {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.participant {
+    text-align: center;
+}
+
+.participant img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+
+.participant p {
+    font-size: 14px;
+    color: #444;
+}
+/* section 5 (Event Details Section end) */
+
+
+
+/* section 6 (About Us Section) */
+#about-us {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.about-company {
+    margin-bottom: 30px;
+}
+
+.about-company h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.about-company p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.info-sections {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.info-column {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.info-column h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.info-column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.info-column ul li {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    margin-top: 40px;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+.footer-links {
+    margin-top: 10px;
+}
+
+.footer-links a {
+    color: #000000;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+/* section 6 (About Us Section end) */
+
+
+
+/* -----new here----- */
+/* Styling for the Event Details Section */
+.event-details-section {
+    width: 350px;
+    margin: 20px auto;
+    background-color: #f7f7f7;
+    padding: 10px;
+    border-radius: 8px;
+    /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); */
+}
+
+.event-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.event-header i {
+    cursor: pointer;
+}
+
+.notepad-section, .chat-section {
+    margin-top: 20px;
+}
+
+.notepad-section h3, .chat-section h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+/* Notepad Styling */
+.event-notepad {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.save-note-btn {
+    margin-top: 10px;
+    background-color: #1907c2c9;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.save-note-btn:hover {
+    background-color: #000000;
+}
+
+/* Chat Section Styling */
+.chat-window {
+    height: 200px;
+    overflow-y: scroll;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 0px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.chat-window .chat-message {
+    margin-bottom: 10px;
+}
+
+.chat-inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-inputs input, .chat-inputs textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border: 1px solid #c0c0c3c9;
+    border-radius: 4px;
+}
+
+.add-up-btn {
+    background-color: #1907c2c9;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.add-up-btn:hover {
+    background-color: #000000c9;
+}
+
+/* --------new here-------- */
+.date-section {
+    text-align: center;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.view-switcher {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.view-switcher button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.view-switcher button:hover {
+    background-color: #0069d9;
+}
+
+.current-date h1, .current-date p {
+    margin: 10px 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.calendar-section input[type="date"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+/* Initially hide all sections except the hero section */
+.welcome-section, 
+.event-btn, 
+.event-list, 
+.event-details-section, 
+.about-company {
+    display: none;
+}
+
+/* Class to show the sections when the button is clicked */
+.show-sections {
+    display: block;
+}
+
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header/Navbar Styling */
+.header {
+    background-color: #007BFF;
+    padding: 15px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #FFD700; /* Hover effect */
+}
+
+/* Hero Section */
+.hero {
+    background-color: #fff; /* You can replace it with your own image */
+    background-size: cover;
+    background-position: center;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero-content h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 20px;
+}
+
+/* Welcome Section */
+.welcome-section {
+    padding: 60px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.welcome-section h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+/* Add Event Section */
+.add-event-section {
+    padding: 60px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.add-event-section h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.event-btn2 {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.cta-btn {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta-btn:hover {
+    background-color: #218838;
+}
+
+/* Event Details Section */
+.event-details-section {
+    padding: 60px 20px;
+    background-color: #e9ecef;
+}
+
+.event-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+/* About Us Section */
+.about-us-section {
+    padding: 60px 20px;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+.about-us-section h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+
+/* General Reset */
+* {
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header/Navbar Styling */
+.header {
+    /* background-color: #bf4605; */
+    padding: 15px 0;
+}
+
+/* Hero Section */
+.hero {
+    background-color:  rgb(255, 255, 255); /* You can replace it with your own image */
+    background-size: cover;
+    background-position: center;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero-content h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 20px;
+}
+
+/* Welcome Section */
+.welcome-section {
+    padding: 60px 20px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.welcome-section h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+/* Add Event Section */
+.add-event-section {
+    padding: 60px 20px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.add-event-section h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.event-btn {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.cta-btn {
+    background-color: #1907c2c9;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta-btn:hover {
+    background-color: #000000;
+}
+
+/* Event Details Section */
+.event-details-section {
+    padding: 60px 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+.event-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+/* About Us Section */
+.about-us-section {
+    padding: 60px 20px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.about-us-section h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+
+/* Styles for the modal */
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: 10% auto; 
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px;
+    text-align: center;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.cta-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1907c2c9;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.cta-btn:hover {
+    background-color: #000000;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input[type="text"], input[type="time"], input[type="date"] {
+    width: 90%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Basic styling */
+.date-section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.view-switcher button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+
+.view-switcher button:hover {
+    background-color: #e0e0e0;
+}
+
+.current-date {
+    margin-top: 20px;
+}
+
+.current-day {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.current-weekday {
+    font-size: 18px;
+    color: #666;
+}
+
+.time-section p {
+    font-size: 16px;
+}
+
+/* Calendar Modal */
+.calendar-modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.calendar-content {
+    background-color: white;
+    margin: 15% auto;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+.calendar-input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.close-btn {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.close-btn:hover {
+    color: #000;
+}
+
+.event-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.event-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    background-color: #f8f8f8;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.event-item button {
+    margin-left: 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.edit-btn {
+    background-color: #1907c2c9;
+    color: white;
+}
+
+.delete-btn {
+    background-color: #d9534f;
+    color: white;
+}
+
+
+/* Responsive Design section 1 hero-section*/
+@media (max-width: 768px) {
+    .navbar {
+        position: relative;
+        top: 0;
+        width: 100%;
+        padding: 15px 0;
+    }
+
+    .nav-link i {
+        font-size: 24px;
+    }
+
+    .nav-link span {
+        font-size: 14px;
+    }
+    .hero {
+        padding: 15px;
+    }
+    
+    .header h1 {
+        font-size: 24px;
+    }
+
+    .header p {
+        font-size: 16px;
+    }
+
+    .cta-btn {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+
+    .add-event-input {
+        font-size: 14px;
+        padding: 12px 20px;
+    }
+
+
+/* -------------NEW-HERE------------ */
+
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f7f7f7;
+    line-height: 1.6;
+    padding: 10px;
+}
+
+/* Hero Section */
+.hero-details {
+    text-align: center;
+    padding: 20px;
+}
+
+.hero-details h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.hero-details p {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.illustration img {
+    max-width: 100%;
+    height: auto;
+}
+
+.cta a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6f61;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Welcome Section */
+.welcome-section {
+    padding: 15px;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+.welcome-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.welcome-header p span {
+    font-weight: bold;
+}
+
+.profile-pic img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+/* Date Section */
+.date-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.date-section .current-date h1 {
+    font-size: 3rem;
+}
+
+.date-section .current-date p {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+/* Add Event Section */
+.event-btn {
+    padding: 20px;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+.event-btn input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.event-btn2 a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Event List */
+.event-list {
+    padding: 20px;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+.event-list ul {
+    list-style-type: none;
+}
+
+.event-list ul li {
+    background-color: #f0f0f0;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Notepad Section */
+.notepad-section textarea {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.save-note-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f1f1f1;
+}
+
+.footer-links a {
+    margin: 0 5px;
+    text-decoration: none;
+    color: #333;
+}
+
+/* Media Queries for Responsive Design */
+
+/* Tablets (Portrait and Landscape) */
+@media screen and (max-width: 768px) {
+    .hero-details h1 {
+        font-size: 2rem;
+    }
+
+    .hero-details p {
+        font-size: 1rem;
+    }
+
+    .illustration img {
+        max-width: 80%;
+        height: auto;
+    }
+
+    .date-section {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .welcome-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .profile-pic img {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+/* Smartphones */
+@media screen and (max-width: 480px) {
+    .hero-details h1 {
+        font-size: 1.5rem;
+    }
+
+    .hero-details p {
+        font-size: 0.9rem;
+    }
+
+    .cta a {
+        padding: 8px 16px;
+        font-size: 0.9rem;
+    }
+
+    .date-section .current-date h1 {
+        font-size: 2rem;
+    }
+
+    .date-section .current-date p {
+        font-size: 1rem;
+    }
+
+    .event-btn input {
+        font-size: 0.9rem;
+    }
+
+    .save-note-btn {
+        padding: 8px 16px;
+        font-size: 0.9rem;
+    }
+}
+
+/* Larger Devices (Desktops & Laptops) */
+@media screen and (min-width: 1024px) {
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .hero-details h1 {
+        font-size: 3rem;
+    }
+
+    .hero-details p {
+        font-size: 1.5rem;
+    }
+
+    .profile-pic img {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+    /* @media (max-width: 768px) { */
+        .modal-content {
+            width: 100%;
+        }
+        .event-details-section {
+            padding: 15px;
+        }
+    
+        .time-duration h2 {
+            font-size: 28px;
+        }
+    }
+/* Responsive Design section 1 (hero-section end)*/
+@media (max-width: 768px) {
+    .navbar-menu {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .nav-link {
+        font-size: 18px;
+    }
+
+    .nav-link i {
+        font-size: 22px;
+    }
+}
+
+
